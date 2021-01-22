@@ -11,5 +11,8 @@ func main() {
 }
 
 func baiduImages(imageURL string) {
-
+	var postData = [2] string {
+		'from' => 'pc',
+		'image' => $image,
+	}
 }
